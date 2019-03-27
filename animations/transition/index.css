@@ -1,0 +1,75 @@
+body{
+  margin: 0;
+}
+.container{
+
+}
+
+.translate{
+  width: 200px;
+  height: 200px;
+  background-color: dodgerblue;
+  transition: transform 2s;
+  transform: translate(0, 0);
+  text-align: center;
+  line-height: 200px;
+  float: left;
+
+}
+.translate:hover{
+ transform: translate(20px, 30px);
+ z-index: 1;
+}
+.rotate{
+  width: 200px;
+  height: 200px;
+  background-color: #c2ff1e;
+  float: left;
+  text-align: center;
+  line-height: 200px;
+  transition: transform 2s;
+
+}
+.rotate:hover{
+  transform: rotate(30deg);
+}
+.rotate-y{
+  width: 200px;
+  height: 200px;
+  background-color: #c2ff1e;
+  float: left;
+  text-align: center;
+  line-height: 200px;
+  transition: transform 2s;
+
+}
+.rotate-y:hover{
+  transform: rotateY(30deg);
+}
+.rotate-x{
+  width: 200px;
+  height: 200px;
+  background-color: #c2ff1e;
+  float: left;
+  text-align: center;
+  line-height: 200px;
+  transition: transform 2s;
+
+}
+.rotate-x:hover{
+  transform: rotateX(30deg);
+}
+.skew{
+  width: 200px;
+  height: 200px;
+  background-color: #ff1e75;
+  float: left;
+  text-align: center;
+  line-height: 200px;
+  transition: transform 2s;
+
+}
+
+.skew:hover{
+  transform: skewY(30deg);
+}

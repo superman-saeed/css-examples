@@ -1,0 +1,54 @@
+body{
+  margin: 0;
+}
+.container{
+   position: relative;
+}
+
+.translate{
+  width: 200px;
+  height: 200px;
+  background-color: dodgerblue;
+  transform: translate(20px, 30px);
+  position: relative;
+  text-align: center;
+  line-height: 200px;
+
+}
+.rotate{
+  width: 200px;
+  height: 200px;
+  background-color: #c2ff1e;
+  transform: rotate(30deg);
+  text-align: center;
+  line-height: 200px;
+  transition: transform 2s;
+
+}
+.rotate-y{
+  width: 200px;
+  height: 200px;
+  background-color: #c2ff1e;
+  transform: rotateY(30deg);
+  text-align: center;
+  line-height: 200px;
+
+}
+.rotate-x{
+  width: 200px;
+  height: 200px;
+  background-color: #c2ff1e;
+  transform: rotateX(30deg);
+  text-align: center;
+  line-height: 200px;
+
+}
+.skew{
+  width: 200px;
+  height: 200px;
+  background-color: #ff1e75;
+  transform: skewY(30deg);
+  text-align: center;
+  line-height: 200px;
+
+}

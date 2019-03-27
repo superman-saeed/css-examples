@@ -1,0 +1,56 @@
+body{
+  margin: 0;
+}
+.container{
+  margin: 10px;
+
+}
+.gaps{
+  margin: 10px 15px;
+}
+.text-field, .text{
+  position: relative;
+  display: inline-block;
+  margin-bottom:20px;
+  font-family: monospace;
+  color: dodgerblue;
+}
+
+.text-field input{
+  border: none;
+  border:1px solid dodgerblue;
+  padding: 10px 15px;
+}
+.tooltip{
+  position: absolute;
+  left: 100%;
+  width: 150px;
+  margin-left:10px;
+  background-color: rgba(26, 255, 11, 0.4);
+  text-align: center;
+  visibility: hidden;
+}
+.b-block{
+  padding: 10px 15px;
+}
+.s-block{
+  padding: 3px 6px;
+}
+
+.tooltip::before{
+  content: " ";
+  position: absolute;
+  right: 100%;
+  border-width: 6px;
+  border-style: solid;
+  border-color: transparent rgba(26, 255, 11, 0.4) transparent transparent;
+  text-align: center;
+
+}
+ .text:hover span{
+   visibility: visible;
+}
+.text-field:hover span{
+  visibility: visible;
+
+}

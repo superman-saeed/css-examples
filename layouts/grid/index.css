@@ -1,0 +1,17 @@
+body{
+  margin: 0;
+}
+
+.container{
+  display: grid;
+  grid-template-columns: auto auto auto;
+
+}
+.child{
+  height: 200px;
+  line-height: 200px;
+  text-align:center;
+  border: 2px solid black;
+  box-sizing: border-box;
+
+}
