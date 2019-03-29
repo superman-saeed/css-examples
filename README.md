@@ -1,2 +1,2 @@
 # css-examples
-basic css properties a simple build 
+illustration of basic css properties as examples.
